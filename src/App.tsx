@@ -1,6 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Header from './components/Header'
+import HomePage from './pages/HomePage'
+
 function App() {
   return (
-    <h1>MA Reworks</h1>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
