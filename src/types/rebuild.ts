@@ -8,4 +8,5 @@ export type Rebuild = {
   year: number
   status: RebuildStatus
   summary: string
+  image: string
 }
