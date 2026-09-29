@@ -8,6 +8,8 @@ export const rebuilds: Rebuild[] = [
     model: 'E46 330i',
     year: 2001,
     status: 'in-progress',
-    summary: 'Carro de leilão com danos na frente. Motor intacto, carroçaria a ser alinhada.',
+    summary:
+      'Carro de leilão com danos na frente. Motor intacto, carroçaria a ser alinhada.',
+    image: '/images/812.jpg',
   },
 ]

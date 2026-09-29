@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FaInstagram, FaGithub } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
+import FooterBottom from '../components/FooterBottom'
 
 function HomePage() {
   return (
@@ -115,12 +116,8 @@ function HomePage() {
             "If it was built by a man it can be repaired by a man."
           </p>
         </div>
-        <div className="footer-bottom">
-          <p>© 2026 MA Reworks. All rights reserved.</p>
-          <p>
-            Built with passion. <span>&lt;/&gt;</span>
-          </p>
-        </div>
+        
+        <FooterBottom />
       </footer>
     </>
   )
