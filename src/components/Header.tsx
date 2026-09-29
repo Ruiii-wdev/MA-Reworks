@@ -8,7 +8,6 @@ function Header() {
       </Link>
       <nav className="site-nav">
         <NavLink to="/garage">Garage</NavLink>
-        <NavLink to="/museum">Museum</NavLink>
         <NavLink to="/project">Projects</NavLink>
         <NavLink to="/forum">Forum</NavLink>
         <Link
